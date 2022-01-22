@@ -1,0 +1,739 @@
+.container {
+display: flex;
+flex-direction: column;
+}
+
+.navbar {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_leftside {
+    height: 100%;
+    width: px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: px;
+}
+
+.navbar_logo1 {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    margin-left: 11px;
+}
+
+.navbar_logo {
+    height: 44px;
+    width: 44px;
+    margin-right: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar_logo img {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar_logo:hover {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 50px;
+}
+
+.buttonsleftnav {
+    margin-right: 1px;
+    margin-left: -15px;
+}
+
+.buttonsleftnav2 {
+    margin-right: 0px;
+    margin-left: 1px;
+}
+
+.buttonsleftnav2 a2:hover  {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 24px;
+}
+
+.ButtonInicio {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 12px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+         Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kakuic P Gothro",
+        メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol";
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.ButtonHoy {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 12px;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+   "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kakuic P Gothro",
+   メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji",
+   "Segoe UI Emoji", "Segoe UI Symbol";
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+
+.comprnav {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 12px;
+   color: black;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+}
+
+.comprnav1 {
+    height: 15px;
+    width: 70px;
+    margin-right: 10px;
+    margin-left: -2px;
+    padding: 12px;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+   "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kakuic P Gothro",
+   メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji",
+   "Segoe UI Emoji", "Segoe UI Symbol";
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+}
+
+.comprnav a {
+    height: 100%;
+    width: 150px;
+    margin-right: 10px;
+    margin-left: -7px;
+    padding: 12px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+   "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kakuic P Gothro",
+   メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji",
+   "Segoe UI Emoji", "Segoe UI Symbol";
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+}
+
+.comprnav img {
+   height: 14px;
+   width: 14px;
+   margin-right: 10px;
+   margin-left: -15px;
+   display: flex;
+   align-items: center;
+}
+
+.comprnav:hover {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 24px;
+}
+
+.barrabusqueda {
+        height: 60%;
+        width: 1487px;
+        border: 0px solid rgba(128, 128, 128, 0.205);
+        background-color: rgba(128, 128, 128, 0.205);
+        border-radius: 64px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+}
+
+.barrabusqueda img {
+    height: 100%;
+    width: 100%;    
+    display: flex;
+}
+
+.barrabusqueda:hover {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 24px;
+}
+
+.Lupaimg {
+    height: 80%;
+    width: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 8px;
+}
+
+.lupape2 {
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.Lupaimg:hover {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 24px;
+}
+
+.inputset {
+    background-color: transparent;
+    border: transparent;
+    width: 90%;
+    outline: none;
+}
+
+.zonader{
+    height: 70%;
+    width: 210px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.zonader1{
+    height: 80%;
+    width: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.zonader2{
+    height: 80%;
+    width: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.zonader3{
+    height: 80%;
+    width: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.zonader4{
+    height: 50%;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.noti{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.notif2 {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+
+.bandeja {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+.bandeja2 {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+
+.userimg {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.userimg2 {
+    border: 1px transparent;
+    border-radius: 24px;
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+
+.bajoflecha {
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.bajoflecha2 {
+    border: 1px transparent;
+    border-radius: 24px;
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+    margin-left: 3.2px;
+}
+
+
+.zonader1:hover {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.zonader2:hover {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+
+.zonader3:hover {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+
+.zonader4:hover {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.zonaimg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px  ;
+    margin-top: 85px;
+    margin-left: 100px;
+}
+
+.floodimg {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+gap: 16px ;
+height: 100%;
+}
+
+.floodimg img {
+ height: 100%;
+ width: 236px;
+ border: 1px transparent;
+ border-radius: 24px;
+}
+
+.boximgpin {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxcreator {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.boxcreator1 {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    margin-left: 15px;
+    margin-top: -6px;
+}
+
+.contimg {
+    height: 100%;
+    width: 236px;
+    background: rgba(0, 0, 0, 0.329) ;
+    background-color: rgba(0, 0, 0, 0.678) ;
+    border-radius: 24px;
+    position: static;
+    display: flex;
+}
+
+.contimg:hover button {
+    visibility: visible;
+}
+
+.contimg:hover .boxconf {
+    visibility: visible;
+}
+
+.contimg:hover .boxshare {
+    visibility: visible;
+}
+
+.spider:hover {
+    opacity:0.5;
+    cursor: pointer;
+    background: rgb(255, 0, 0) ; opacity: 0.5;
+    cursor: zoom-in;
+}
+
+.boxsave {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end ;
+    justify-content: flex-start;
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 10px;
+    margin-bottom: 180px;
+    margin-right: 15px;
+}
+
+.buttonsave {
+    visibility: hidden;
+}
+
+.boxsave:hover button {
+    visibility: visible;
+}
+
+.buttonsave {
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 24px;
+    padding: 12px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+         Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kakuic P Gothro",
+        メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol";
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.boxconf {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end ;
+    justify-content: flex-start;
+    border: 1px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 195px;
+    margin-bottom: px;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.boxconf img {
+    height: 18px;
+    width: 18px;
+    margin-right: 6px;
+    margin-top: 6px;
+}
+
+.boxconf {
+    visibility: hidden;
+}
+
+.boxconf:hover img {
+    visibility: visible;
+}
+
+.boxshare {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end ;
+    justify-content: flex-start;
+    border: 1px transparent;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    margin-bottom: 1px;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.contimg .boxshare {
+    margin-left: 155px;
+    margin-top: 195px;
+}
+
+.boxshare img {
+    height: 18px;
+    width: 18px;
+    margin-right: 5.3px;
+    margin-top: 5px;
+    border-radius: 0px;
+}
+
+.boxshare {
+    visibility: hidden;
+}
+
+.boxshare:hover img {
+    visibility: visible;
+}
+
+.boxcreator {
+    display: flex;
+}
+
+
+.floodimg2 {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+gap: 16px ;
+height: 100%;
+    }
+
+.floodimg2 img {
+    height: 100%;
+    width: 236px;
+    border: 1px transparent;
+    border-radius: 24px;
+}
+
+.floodimg3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    vertical-align: ;
+    gap: 16px ;
+    height: 100%;
+    }
+
+.floodimg3 img {
+    height: 100%;
+    width: 236px;
+    border: 1px transparent;
+    border-radius: 24px;
+}
+
+.floodimg4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    vertical-align: ;
+    gap: 16px ;
+    height: 100%;
+    }
+
+.floodimg4 img {
+    height: 100%;
+    width: 236px;
+    border: 1px transparent;
+    border-radius: 24px;
+}
+
+.botonmasmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 1px transparent;
+    border-radius: 120px; 
+    height: 135px;
+    margin-right: 20px;
+}
+
+/* position:fixed; z-index:1; */
+
+.botonmaspre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 1px gray;
+    border-radius: 120px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    margin-bottom: 10px;
+    bottom: 80px;
+    right: 10;
+    position: fixed;
+    z-index: 3000;
+}
+
+.botonmaspre img {
+    height: 20px;
+    width: 20px;
+}
+
+.botonmaspre:hover {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 24px;
+}
+
+.botonpregun {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 1px gray;
+    border-radius: 120px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    margin-bottom: 25px;
+    bottom: 1px;
+    right: 10;
+    position: fixed;
+    z-index: 3001;
+}
+
+.botonpregun img {
+    height: 20px;
+    width: 20px;
+}
+
+.boxconf:hover {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 24px;
+}
+
+.botonpregun:hover {
+    background-color: rgba(37, 29, 29, 0.158);
+    border-radius: 24px;
+}
+
+@media only screen and (max-width: 1980px) {
+    .comprnav {
+       display: none;
+    }
+  }
+
+  @media only screen and (max-width: 2686px) {
+    .comprnav1 {
+       display: none;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .comprnav  {
+       display: flex;
+       height: 22px;
+       width: 55px;
+       margin-right: 0px;
+       margin-left: 0px;
+    }
+
+  @media only screen and (max-width: 700px) {
+    .comprnav1  {
+       display: flex;
+       height: 0%;
+       width: 0px;
+       margin-left: -20px;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .buttonsleftnav, .buttonsleftnav2 {
+       display: none;
+       height: 0%;
+       width: 0%;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    .barrabusqueda  {
+       height: 0%;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: flex-end;
+    }
+  }
+
+@media only screen and (max-width: 426px) {
+    .navbar {
+        background-color: white;
+        height: 80px;
+        width: 100%;
+    }
+}
+
+  @media only screen and (max-width: 1980px) {
+    .Lupaimg  {
+        height: 42px;
+        width: 42px;
+        margin-left: 10px;
+        margin-right: -5px;
+    }
+  }
+
+  @media only screen and (max-width: 1980px) {
+    .lupape2 img  {
+        height: 22px;
+        width: 22px;
+        margin-left: 5px;
+        margin-right: 10px;
+        margin-top: -2.5px;
+    }
+  }
+
+  @media only screen and (max-width: 1980px) {
+    .inputset  {
+        background-color: transparent;
+        border: transparent;
+        width: 0%;
+        outline: none;
+    }
+  }
+
+
